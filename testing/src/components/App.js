@@ -1,11 +1,16 @@
+import { Route, Routes } from "react-router-dom";
 import CommentBox from "./CommentBox";
 import CommentList from "./CommentList";
 
 function App() {
   return (
     <div className="App">
-      <CommentBox />
-      <CommentList />
+
+      <Routes>
+
+        <Route path="/post" element={<CommentBox />}/>
+        <Route path="/" element={<CommentList />}/>
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,1 @@
+connect function in redux is considered a higher order component
