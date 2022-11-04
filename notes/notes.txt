@@ -1,0 +1,8 @@
+what to test:
+    Look at each individual part of your application
+    Imagine telling a friend 'heres what this price of code does'
+    write a test to verify each part does what you expect
+npm i redux react-redux
+npm i enzyme enzyme-adapter-react-18
+
+wrapped.find('textarea').prop('value')
