@@ -7,3 +7,4 @@ npm i enzyme enzyme-adapter-react-18
 
 wrapped.find('textarea').prop('value')
 
+npm i axios redux-promise moxios
