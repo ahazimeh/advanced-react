@@ -8,3 +8,5 @@ npm i enzyme enzyme-adapter-react-18
 wrapped.find('textarea').prop('value')
 
 npm i axios redux-promise moxios
+
+an error happened when we tried to use axios to get data from outside world, so we use moxios to fake requests
