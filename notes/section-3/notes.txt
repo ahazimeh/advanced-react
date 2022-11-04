@@ -1,1 +1,7 @@
 connect function in redux is considered a higher order component
+
+HOC steps:
+    write the logic you want to reuse into a component
+    create a HOC file and add the HOC scaffold
+    move the reusable logic into the HOC
+    Pass porps/config/behavior through to child component
