@@ -5,3 +5,6 @@ HOC steps:
     create a HOC file and add the HOC scaffold
     move the reusable logic into the HOC
     Pass porps/config/behavior through to child component
+
+when naming a file lower case then we are going to export a function by default
+for uppercase it indicates that we are exporting a class
