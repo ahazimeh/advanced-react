@@ -11,4 +11,5 @@ for uppercase it indicates that we are exporting a class
 
 export default connect(null, actions)(requireAuth(CommentBox));
 // multi hoc
+import {compose} from "ramda"
 export default connect(null, actions)(compose(requireAuth, withUser)(CommentBox));

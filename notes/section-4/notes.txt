@@ -1,0 +1,1 @@
+React calls and action creator -> returns and action -> sent to middleware -> forward to reducers -> produces state
