@@ -8,3 +8,7 @@ HOC steps:
 
 when naming a file lower case then we are going to export a function by default
 for uppercase it indicates that we are exporting a class
+
+export default connect(null, actions)(requireAuth(CommentBox));
+// multi hoc
+export default connect(null, actions)(compose(requireAuth, withUser)(CommentBox));
