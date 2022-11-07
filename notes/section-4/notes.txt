@@ -1,1 +1,4 @@
 React calls and action creator -> returns and action -> sent to middleware -> forward to reducers -> produces state
+// stands for tiny validator 4
+npm i tv4
+to generate a json schema there is this website jsonschema.net
