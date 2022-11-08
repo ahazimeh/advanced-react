@@ -1,0 +1,3 @@
+tokens can go cross-domains
+
+npm i express mongoose morgan body-parser
