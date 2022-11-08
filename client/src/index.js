@@ -6,18 +6,23 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Welcome from './components/Welcome';
 import Signup from './components/auth/signup';
+import { Provider } from "react-redux";
+import { createStore, applyMiddleware } from "redux";
+import reducers from './reducers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App>
-        <Routes>
-          <Route path='/' element={<Welcome />}/>
-          <Route path='/signup' element={<Signup />}/>
-        </Routes>
-      </App>
-    </BrowserRouter>
+    <Provider store={createStore(reducers, {})}>
+      <BrowserRouter>
+        <App>
+          <Routes>
+            <Route path='/' element={<Welcome />}/>
+            <Route path='/signup' element={<Signup />}/>
+          </Routes>
+        </App>
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>
 );
 
