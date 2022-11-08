@@ -2,3 +2,5 @@ tokens can go cross-domains
 
 npm i express mongoose morgan body-parser
 morgan is a logging framework, mostly we will use it for debugging
+
+npm i bcrypt-nodejs
