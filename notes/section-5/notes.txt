@@ -8,3 +8,5 @@ npm i jwt-simple
 
 in jwt, as a convention sub is subject which represents who this token is all about, who does this token belong to
 same for iat, issued at time
+
+npm i passport passport-jwt
