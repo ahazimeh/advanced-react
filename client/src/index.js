@@ -12,7 +12,7 @@ import reducers from './reducers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <Provider store={createStore(reducers, {})}>
       <BrowserRouter>
         <App>
@@ -23,7 +23,7 @@ root.render(
         </App>
       </BrowserRouter>
     </Provider>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
