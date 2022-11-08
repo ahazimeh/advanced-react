@@ -1,1 +1,3 @@
 npm i react-router-dom redux react-redux redux-form axios redux-thunk
+
+cors starts to kick in if we are on a different domain, subdomain, or port
