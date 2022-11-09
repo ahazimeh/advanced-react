@@ -10,6 +10,7 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import reducers from './reducers';
 import reduxThunk from "redux-thunk"
+import Feature from './components/Feature';
 
 const store = createStore(
   reducers,
@@ -26,6 +27,7 @@ root.render(
           <Routes>
             <Route path='/' element={<Welcome />}/>
             <Route path='/signup' element={<Signup />}/>
+            <Route path='/feature' element={<Feature />}/>
           </Routes>
         </App>
       </BrowserRouter>
